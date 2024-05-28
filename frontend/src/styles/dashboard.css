@@ -1,0 +1,36 @@
+/* dashboard.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5; /* Soft background color */
+    border-radius: 10px; /* Rounded container edges */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; /* Dark text color */
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff; /* White text color */
+    background-color: #4CAF50; /* Green background color */
+    padding: 15px 30px;
+    border-radius: 25px; /* Rounded button edges */
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.link:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
