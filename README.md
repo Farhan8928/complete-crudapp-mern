@@ -1,6 +1,3 @@
-Here is a sample `README.md` file for your completed CRUD application assignment:
-
-```markdown
 # CRUD Application
 
 This is a CRUD application with user authentication, allowing users to register, log in, create, read, update, and delete records. The application includes error handling and user-friendly notifications.
@@ -45,7 +42,7 @@ This is a CRUD application with user authentication, allowing users to register,
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/complete-crudapp-mern/my-crud-app.git
+    git clone https://github.com/yourusername/my-crud-app.git
     cd my-crud-app
     ```
 
@@ -79,7 +76,7 @@ This is a CRUD application with user authentication, allowing users to register,
     npm start
     ```
 
-The application should now be running on `http://localhost:3000` with the backend API available at `http://localhost:8080`.
+The application should now be running on `http://localhost:3000` with the backend API available at `http://localhost:5000`.
 
 ## Usage
 
@@ -108,50 +105,47 @@ The application should now be running on `http://localhost:3000` with the backen
    - Use the bulk delete option to remove multiple records at once.
 
 ## Folder Structure
-
-```
 my-crud-app/
 ├── backend/
-│   ├── config/
-│   │   └── db.js
-│   ├── controllers/
-│   │   ├── authController.js
-│   │   └── recordController.js
-│   ├── models/
-│   │   ├── categoryModel.js
-│   │   ├── recordModel.js
-│   │   └── userModel.js
-│   ├── routes/
-│   │   ├── authRoutes.js
-│   │   └── recordRoutes.js
-│   ├── middleware/
-│   │   └── authMiddleware.js
-│   └── server.js
+│ ├── config/
+│ │ └── db.js
+│ ├── controllers/
+│ │ ├── authController.js
+│ │ └── recordController.js
+│ ├── models/
+│ │ ├── categoryModel.js
+│ │ ├── recordModel.js
+│ │ └── userModel.js
+│ ├── routes/
+│ │ ├── authRoutes.js
+│ │ └── recordRoutes.js
+│ ├── middleware/
+│ │ └── authMiddleware.js
+│ └── server.js
 ├── frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── Auth/
-│   │   │   │   ├── Login.js
-│   │   │   │   ├── Register.js
-│   │   │   ├── Record/
-│   │   │   │   ├── RecordForm.js
-│   │   │   │   ├── RecordList.js
-│   │   │   ├── Dashboard.js
-│   │   │   ├── Header.js
-│   │   │   ├── Footer.js
-│   │   ├── context/
-│   │   │   └── AuthContext.js
-│   │   ├── App.js
-│   │   ├── index.js
-│   ├── styles/
-│   │   ├── login.css
-│   │   ├── register.css
-│   │   ├── recordform.css
-│   │   ├── recordlist.css
-│   └── package.json
+│ ├── public/
+│ ├── src/
+│ │ ├── components/
+│ │ │ ├── Auth/
+│ │ │ │ ├── Login.js
+│ │ │ │ ├── Register.js
+│ │ │ ├── Record/
+│ │ │ │ ├── RecordForm.js
+│ │ │ │ ├── RecordList.js
+│ │ │ ├── Dashboard.js
+│ │ │ ├── Header.js
+│ │ │ ├── Footer.js
+│ │ ├── context/
+│ │ │ └── AuthContext.js
+│ │ ├── App.js
+│ │ ├── index.js
+│ ├── styles/
+│ │ ├── login.css
+│ │ ├── register.css
+│ │ ├── recordform.css
+│ │ ├── recordlist.css
+│ └── package.json
 ├── README.md
-```
 
 ## Contributing
 
@@ -160,4 +154,4 @@ Feel free to open issues or submit pull requests if you have any suggestions or 
 ## License
 
 This project is licensed under the MIT License.
-```
+
