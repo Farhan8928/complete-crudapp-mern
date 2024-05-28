@@ -42,7 +42,7 @@ This is a CRUD application with user authentication, allowing users to register,
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/my-crud-app.git
+    git clone https://github.com/complete-crud-app/my-crud-app.git
     cd my-crud-app
     ```
 
@@ -76,7 +76,7 @@ This is a CRUD application with user authentication, allowing users to register,
     npm start
     ```
 
-The application should now be running on `http://localhost:3000` with the backend API available at `http://localhost:5000`.
+The application should now be running on `http://localhost:3000` with the backend API available at `http://localhost:8080`.
 
 ## Usage
 
@@ -105,53 +105,66 @@ The application should now be running on `http://localhost:3000` with the backen
    - Use the bulk delete option to remove multiple records at once.
 
 ## Folder Structure
+
+```
 my-crud-app/
 ├── backend/
-│ ├── config/
-│ │ └── db.js
-│ ├── controllers/
-│ │ ├── authController.js
-│ │ └── recordController.js
-│ ├── models/
-│ │ ├── categoryModel.js
-│ │ ├── recordModel.js
-│ │ └── userModel.js
-│ ├── routes/
-│ │ ├── authRoutes.js
-│ │ └── recordRoutes.js
-│ ├── middleware/
-│ │ └── authMiddleware.js
-│ └── server.js
+│   ├── config/
+│   │   └── db.js
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   └── recordController.js
+│   ├── models/
+│   │   ├── categoryModel.js
+│   │   ├── recordModel.js
+│   │   └── userModel.js
+│   ├── routes/
+│   │   ├── authRoutes.js
+│   │   └── recordRoutes.js
+│   ├── middleware/
+│   │   └── authMiddleware.js
+│   └── server.js
 ├── frontend/
-│ ├── public/
-│ ├── src/
-│ │ ├── components/
-│ │ │ ├── Auth/
-│ │ │ │ ├── Login.js
-│ │ │ │ ├── Register.js
-│ │ │ ├── Record/
-│ │ │ │ ├── RecordForm.js
-│ │ │ │ ├── RecordList.js
-│ │ │ ├── Dashboard.js
-│ │ │ ├── Header.js
-│ │ │ ├── Footer.js
-│ │ ├── context/
-│ │ │ └── AuthContext.js
-│ │ ├── App.js
-│ │ ├── index.js
-│ ├── styles/
-│ │ ├── login.css
-│ │ ├── register.css
-│ │ ├── recordform.css
-│ │ ├── recordlist.css
-│ └── package.json
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Auth/
+│   │   │   │   ├── Login.js
+│   │   │   │   ├── Register.js
+│   │   │   ├── Records/
+│   │   │   │   ├── RecordForm.js
+│   │   │   │   ├── RecordList.js
+│   │   ├── context/
+│   │   │   ├── AuthContext.js
+│   │   ├── App.js
+│   │   ├── index.js
+│   ├── styles/
+│   │   ├── login.css
+│   │   ├── register.css
+│   │   ├── recordform.css
+│   │   ├── recordlist.css
+├── .env
+├── package.json
 ├── README.md
+```
 
-## Contributing
+## Dependencies
 
-Feel free to open issues or submit pull requests if you have any suggestions or improvements.
+### Backend
+
+- express
+- mongoose
+- bcryptjs
+- jsonwebtoken
+- dotenv
+
+### Frontend
+
+- react
+- react-dom
+- react-router-dom
+- axios
 
 ## License
 
 This project is licensed under the MIT License.
-
